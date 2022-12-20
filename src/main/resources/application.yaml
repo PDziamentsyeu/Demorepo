@@ -1,0 +1,10 @@
+app:
+  definitions:
+    - jobType: JOB_1
+      cronExpression: 0 0 * ? * *
+    - jobType: JOB_2
+      cronExpression: 0 0 0/2 ? * *
+    - jobType: JOB_3
+      cronExpression: 0 0 */6 ? * *
+    - jobType: JOB_4
+      cronExpression: 0 0 */12 ? * *
